@@ -22,10 +22,49 @@ body {
     margin: 5% 3% 5% 0;
 }
 
+
+/* Styling Font-Awesome */
+
+.fas {
+    color: #e7305b;
+    margin-bottom: 1rem;
+}
+
+.fa-check-circle:hover {
+    color: #FF4c88;
+}
+
+.fa-bullseye:hover {
+    color: #FF4c88;
+}
+
+.fa-heart:hover {
+    color: #FF4c88;
+}
+
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    padding-bottom: 10%;
+    text-align: center;
+    padding: 5%;
+}
+
 h1 {
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Montserrat-Bold";
 }
 
 
@@ -50,7 +89,12 @@ h1 {
     font-family: "Montserrat-Light";
 }
 
+p {
+    color: grey;
+}
+
 #title {
     background-color: #e7305b;
     color: #fff;
+    margin-bottom: 5rem;
 }
