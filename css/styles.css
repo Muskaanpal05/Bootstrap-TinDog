@@ -115,6 +115,18 @@ p {
 }
 
 
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+
 /* Title */
 
 #title {
