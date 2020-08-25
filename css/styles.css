@@ -3,7 +3,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     position: relative;
 }
 
@@ -17,6 +17,8 @@ body {
 .dog-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 
@@ -51,6 +53,9 @@ body {
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
@@ -132,7 +137,6 @@ p {
 #title {
     background-color: #e7305b;
     color: #fff;
-    margin-bottom: 5rem;
 }
 
 
