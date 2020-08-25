@@ -7,6 +7,10 @@ body {
     position: relative;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 
 /* Title */
 
@@ -61,6 +65,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -93,8 +103,37 @@ p {
     color: grey;
 }
 
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+
+/* Title */
+
 #title {
     background-color: #e7305b;
     color: #fff;
     margin-bottom: 5rem;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
