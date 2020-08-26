@@ -82,6 +82,16 @@ h3 {
     font-family: "Montserrat-Bold";
 }
 
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .dog-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
 
 /* Navigation Bar */
 
